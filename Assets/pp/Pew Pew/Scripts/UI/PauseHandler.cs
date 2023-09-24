@@ -137,7 +137,7 @@ namespace GameCore
         /// </summary>
         public void Restart()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
 
         /// <summary>

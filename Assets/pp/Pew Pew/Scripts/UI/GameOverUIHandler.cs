@@ -77,7 +77,7 @@ namespace GameCore
         /// </summary>
         public void Restart()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
 
         /// <summary>
@@ -85,7 +85,7 @@ namespace GameCore
         /// </summary>
         public void MainMenu()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }
